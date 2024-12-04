@@ -1,15 +1,16 @@
 {
   "name": "static-site",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a README file generator for the Module 7 Challenge",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Peter Rudolf",
   "license": "ISC",
   "dependencies": {
-    "inquirer": "8.2.4"
+    "fs": "^0.0.1-security",
+    "inquirer": "^8.2.4"
   }
 }

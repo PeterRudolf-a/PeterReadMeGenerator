@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'fs';
+import generateMarkdown from './utils/generateMarkdown.js';
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -26,7 +27,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributing',
+        name: 'contribution',
         message: 'Please provide contribution guidelines:'
     },
     {
@@ -54,7 +55,6 @@ const questions = [
 
 // TODO: Create a function to write README file
 function writeToFile(fileName, data) {
-    const fs = require('fs');
     fs.writeFile(fileName, data, (err) =>
         err ? console.error(err) : console.log('Success!')
     );
@@ -63,31 +63,8 @@ function writeToFile(fileName, data) {
 // TODO: Create a function to initialize app
 function init() {
     inquirer.prompt(questions)
-        .then((data) => {
-            const generateMarkdown = `# ${data.title}
-            ${renderLicenseBadge(data.license)}
-            ## Description
-            ${data.description}
-            ## Table of Contents
-            - [Installation](#installation)
-            - [Usage](#usage)
-            - [License](#license)
-            - [Contributing](#contributing)
-            - [Tests](#tests)
-            - [Questions](#questions)
-            ## Installation
-            ${data.installation}
-            ## Usage
-            ${data.usage}
-            ${renderLicenseSection(data.license)}
-            ## Contributing
-            ${data.contributing}
-            ## Tests
-            ${data.tests}
-            ## Questions
-            If you have any questions, you can contact me at ${data.email}. You can also view more of my work at [${data.github}](
-            `;
-            writeToFile('README.md', generateMarkdown);
+        .then((input) => {
+            writeToFile('README.md', generateMarkdown(input));
 });}
 
 // Function call to initialize app
