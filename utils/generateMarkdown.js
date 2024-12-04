@@ -65,7 +65,7 @@ function generateMarkdown(input) {
   ## Tests
   ${input.tests}
   ## Questions
-  Link to my GitHub profile: (#${input.github})
+  Link to my GitHub profile: (#github.com/${input.github})
   If you have any questions, you can contact me at ${input.email}.
 `;
 }
