@@ -8,6 +8,7 @@
   - [License](#license)
   - [Contributing](#contributing)
   - [Tests](#tests)
+  - [Walkthrough Video](#walkthrough)
   - [Questions](#questions)
   ## Installation
   To install, click the code button to clone the repository.
@@ -20,6 +21,8 @@
   To contribute, see the questions section for contact information.
   ## Tests
   To test this project, type node index.js in the terminal, and answer the questions.
+  ## Walkthrough Video
+  https://drive.google.com/file/d/14xNxGEYKV0bwBsgYrSrOOMUvoan15P93/view?usp=drive_link 
   ## Questions
   Link to my GitHub profile: https://github.com/PeterRudolf-a.
   If you have any questions, you can contact me at peterrudolf249@gmail.com.
