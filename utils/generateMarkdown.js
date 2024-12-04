@@ -65,9 +65,9 @@ function generateMarkdown(input) {
   ## Tests
   ${input.tests}
   ## Questions
-  Link to my GitHub profile: (#https://github.com/${input.github}).
+  Link to my GitHub profile: https://github.com/${input.github}.
   If you have any questions, you can contact me at ${input.email}.
 `;
 }
 
-export default generateMarkdown;
+export default generateMarkdown; // Export the function to be used in index.js

@@ -1,7 +1,7 @@
-# fith test
-  ![License: GNU](https://img.shields.io/badge/License-GNU-blue.svg)
+# Peter's ReadME Generator
+  ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
   ## Description
-  skdjfdksjfkdsjhfasdhfdsjfhjdshfdskjfskdjfkdsjfkjdskfjsdfsd
+  This is a generator to create a professional quality README file.
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -10,16 +10,16 @@
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-  eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+  To install, click the code button to clone the repository.
   ## Usage
-  eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee
+  After cloning, run npm i for inquirer and fs in your integrated terminal
   ## License
-    This project is licensed under the GNU license.
-  [GNU](https://www.gnu.org/licenses/gpl-3.0)
+    This project is licensed under the MIT license.
+  [MIT](https://opensource.org/licenses/MIT)
   ## Contributing
-  rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+  To contribute, see the questions section for contact information.
   ## Tests
-  rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+  To test this project, type node index.js in the terminal, and answer the questions.
   ## Questions
-  Link to my GitHub profile: (#https://github.com/PeterRudolf-a).
-  If you have any questions, you can contact me at sdfsdf.
+  Link to my GitHub profile: https://github.com/PeterRudolf-a.
+  If you have any questions, you can contact me at peterrudolf249@gmail.com.
